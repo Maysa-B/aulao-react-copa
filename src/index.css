@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EEEEE4;
+  color: #302E37;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+  background-color: #460065;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#teams {
+  margin: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffffc4;
+  border-radius: 15px;
+}
+
+#teams section {
+  background-color: #ffffffc4;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #302e3752;
+}
+
+#teams section h3 {
+  width: 150px;
+  text-align: center;
+}
+
+#teams section img {
+  width: 80px;
+}
+
+#teams .brasil {
+  color: #FDDA00;
+  background-color: #44BE79;
+}
+
+#teams .star {
+  width: 30px;
+}
+
+#teams div {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+}
+
+.br {
+  margin: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #44BE79;
+  border-radius: 15px;
+}
+
+.br h2 {
+  font-size: 35px;
+  color: #EEEEE4;
+  text-align: center;
+}
+
+.br section {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.br-player {
+  background-color: #FDDA00;
+  border-radius: 15px;
+  text-align: center;
+  margin: 5px;
+  box-shadow: #917e07 2px 2px 2px;
+}
+
+.br-player h4 {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 5px;
+  color: #44BE79;
+}
+
+.br-player h3 {
+  font-size: 13px;
+}
+
+.br-player p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.br-player img {
+  width: 130px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(243, 243, 243);
+  box-shadow: inset 0 0 3px 1px rgb(155, 155, 155);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #44be79ab;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(214, 214, 214);
+  border: 3px solid white;
+}
